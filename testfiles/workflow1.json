@@ -1,0 +1,14 @@
+{
+    "name": "workflow1",
+
+    "version": "1",
+
+    "description": "workflow descritption",
+
+    "ownerEmail": "owner@email.com",
+
+    "restartable": true,
+
+    "timeOutInSeconds": 600
+
+}

@@ -1,0 +1,19 @@
+{
+    "stepName": "w1Step5",
+
+    "workflowName": "workflow1",
+
+    "description": "Step descritption",
+
+    "workFlowStepType": "TERMINATE",
+
+    "previousStepName": "w1Step4",
+
+    "functionName": "function1",
+
+    "inputData": {
+        "processTimeInMillis" : 10000
+    },
+    
+    "functionPriority": "1"
+}

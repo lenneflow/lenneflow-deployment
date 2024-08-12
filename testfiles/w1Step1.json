@@ -1,0 +1,17 @@
+{
+    "stepName": "w1Step1",
+
+    "workflowName": "workflow1",
+
+    "description": "Step descritption",
+
+    "workFlowStepType": "START",
+
+    "nextStepName": "w1Step2",
+
+    "functionName": "function1",
+
+    "inputData": {
+        "processTimeInMillis" : 10000
+    }
+}

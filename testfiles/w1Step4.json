@@ -1,0 +1,21 @@
+{
+    "stepName": "w1Step4",
+
+    "workflowName": "workflow1",
+
+    "description": "Step descritption",
+
+    "workFlowStepType": "SIMPLE",
+
+    "nextStepName": "w1Step5",
+
+    "previousStepName": "w1Step3",
+
+    "functionName": "function1",
+
+    "inputData": {
+        "processTimeInMillis" : 5000
+    },
+    
+    "functionPriority": "1"
+}

@@ -1,0 +1,17 @@
+{
+    "functionName": "function1",
+
+    "functionDescription": "function1 Description",
+
+    "functionType": "TYPE1",
+
+    "repositoryUrl": "repURL",
+
+    "imageName": "function1-service",
+
+    "endPointRoot": "http://workermaster/",
+
+    "endPointPath": "/api/functionjava/process",
+    
+    "functionPriority": "1"
+}
