@@ -14,5 +14,6 @@ Both mongodb and rabbitmq users must have enough rights to read and write files.
 
 In the configmap files please adapt the configuration. Rabbitmq and Mongodb configuration must be updated
 - spring.data.mongodb.host=[mongodb host name]
+- spring.data.mongodb.port=27017
 - rabbit.address=[rabbitmq host name]
 - rabbit.port=[mongodb port]
