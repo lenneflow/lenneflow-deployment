@@ -21,3 +21,7 @@ In the configmap files please adapt the configuration. Rabbitmq and Mongodb conf
 - rabbit.address=[rabbitmq host name]
 - rabbit.port=[mongodb port]
 ```
+After changing the configurations. just call the command<br>
+```
+kubectl apply -n lenneflow path/to/the/kubernetes/folder
+```
