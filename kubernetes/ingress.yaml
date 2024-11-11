@@ -11,34 +11,41 @@ spec:
     - host: lenneflow.ganemtore.bf
       http:
         paths:
-          - path: /api/orchestration
+          - path: /api/control
             pathType: Prefix
             backend:
               service:
                 name: orchestration-service
                 port:
                   number: 47002
-          - path: /api/function
+          - path: /api/functions
             pathType: Prefix
             backend:
               service:
                 name: function-service
                 port:
                   number: 47003
-          - path: /api/worker
+          - path: /api/workers
             pathType: Prefix
             backend:
               service:
                 name: worker-service
                 port:
                   number: 47004
-          - path: /api/workflow
+          - path: /api/workflows
             pathType: Prefix
             backend:
               service:
                 name: workflow-service
                 port:
                   number: 47005
+          - path: /api/callback
+            pathType: Prefix
+            backend:
+              service:
+                name: callback-service
+                port:
+                  number: 47007
           - path: /admin
             pathType: Prefix
             backend:

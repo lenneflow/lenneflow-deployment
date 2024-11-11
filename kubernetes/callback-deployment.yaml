@@ -22,19 +22,8 @@ spec:
         ports:
         - containerPort: 47007
           hostPort: 47007
-        readinessProbe:
-            httpGet:
-              port: 47007
-              path: /actuator/health
-            initialDelaySeconds: 60
-            timeoutSeconds: 2
-            periodSeconds: 20
-            failureThreshold: 5
-        livenessProbe:
-            httpGet:
-              port: 47007
-              path: /actuator/info
-            initialDelaySeconds: 60
-            timeoutSeconds: 2
-            periodSeconds: 20
-            failureThreshold: 5
+        env:
+            - name: SPRING_CLOUD_BOOTSTRAP_ENABLED
+              value: "true"
+            - name: SPRING_CLOUD_KUBERNETES_SECRETS_ENABLEAPI
+              value: "true"
