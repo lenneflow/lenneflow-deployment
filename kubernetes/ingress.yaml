@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: lenneflow.ganemtore.bf
+    - host: lenneflow
       http:
         paths:
           - path: /api/control
