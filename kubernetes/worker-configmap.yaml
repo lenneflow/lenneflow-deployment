@@ -9,6 +9,7 @@ data:
     spring.data.mongodb.database=lenneflow_worker
     spring.data.mongodb.authentication-database=admin
     spring.cloud.kubernetes.discovery.all-namespaces=true
+    k8sapi.address=http://localhost:8787/api/kubernetes
     eureka.client.enabled=false
     spring.output.ansi.enabled=ALWAYS
     rabbit.address=lenneflowdata
